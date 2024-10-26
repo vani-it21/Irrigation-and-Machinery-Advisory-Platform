@@ -1,0 +1,27 @@
+.signup-background {
+    background-color: #cfdbf3; /* Example: light cyan */
+  }
+  /* Style for the container that holds the form */
+/* Style for the signup form box */
+.bg-white {
+    background-color: white;
+    padding: 15px; /* Reduce padding to shrink height */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    width: 100%;
+    max-width: 400px; /* Control the width */
+    height: auto; /* Let height adjust automatically */
+    max-height: 600px; /* Optional: You can set a maximum height if needed */
+    overflow-y: auto; /* Add scroll if the content exceeds max height */
+  }
+  
+  /* Optional: Adjust margin between form elements to reduce overall height */
+  .form-control {
+    margin-bottom: 10px;
+  }
+  
+  /* Adjust margin for the buttons */
+  button, .btn-default {
+    margin-top: 5px;
+  }
+  

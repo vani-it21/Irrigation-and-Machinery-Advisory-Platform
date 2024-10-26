@@ -1,0 +1,66 @@
+.schedule-grid-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-x: auto; /* Horizontal scroll for grid */
+    padding: 1rem;
+  }
+  
+  .schedule-grid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 1rem;
+  }
+  
+  .schedule-column {
+    width: 300px; /* Fixed width for each schedule column */
+    height: 400px; /* Fixed height for each schedule column */
+    overflow-y: auto; /* Vertical scroll for overflowing content */
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  .table-s {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-s th, .table-s td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table-s th {
+    background-color: #f4f4f4;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .schedule-grid-container::-webkit-scrollbar {
+    height: 8px; /* Height of the horizontal scrollbar */
+  }
+  
+  .schedule-grid-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+  
+  .schedule-grid-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+  .schedule-column::-webkit-scrollbar {
+    width: 8px; /* Width of the vertical scrollbar */
+  }
+  
+  .schedule-column::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+  
+  .schedule-column::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  

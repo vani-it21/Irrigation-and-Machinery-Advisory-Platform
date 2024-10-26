@@ -1,0 +1,61 @@
+/* Container covering the full viewport */
+.login-container {
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #cfdbf3; /* Optional background color */
+  }
+  
+  /* Title styling */
+  .title-box {
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 8px;
+    background-color: #f5f9f8;
+    color: #1f2773; 
+    border-radius: 6px;
+    width: 80%;
+    max-width: 900px;  /* Control max-width for larger screens */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  }
+  
+  
+  
+  
+  /* Style the title text */
+  .title-box h1 {
+    font-size: 22px;
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  /* Login form styling */
+  .login-box {
+    width: 100%;
+    max-width: 400px;  /* Control the width of the login form */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    height: auto; /* Let height adjust automatically */
+    max-height: 500px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Additional styles for form and input fields */
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 50px;
+     
+  }
+  
+  .form-control {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
