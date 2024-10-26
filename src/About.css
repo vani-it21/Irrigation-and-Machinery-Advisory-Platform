@@ -1,0 +1,77 @@
+.div1{
+    width:100%;
+    height:100%;
+    background-color:rgb(114, 114, 132) ;
+
+}
+.im-logo{
+    position:relative;
+    top:5px;
+    left:40px;
+    height:170px;
+    max-width:100%;
+}
+img{
+    position:relative;
+    top:5px;
+    left:100px;
+    height:90%;
+    width:80%;
+}
+.div2{
+    position:absolute;
+    width: 100%;
+    height: 80%;
+    background-color: rgb(230, 248, 242);
+}
+.nav{
+    position:sticky;
+    background-color:black;
+   width:100%;
+}
+.table-container {
+  min-width: 1500px;
+  min-height: 500px;
+  margin: 20px auto;
+  padding: 50px;
+  background-color: #f9f5f5;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+  position: absolute;
+}
+
+.pesticide-weedicide-table {
+  width: 100%; /* Keep the table width 100% of the container */
+  border-collapse: collapse;
+  font-size: 18px;
+
+  text-align: left;
+}
+
+.pesticide-weedicide-table th, .pesticide-weedicide-table td {
+  padding: 25px; /* Increase the padding for more space inside the cells */
+  border: 1px solid #ddd;
+}
+
+.pesticide-weedicide-table th {
+  background-color: #3e8e41;
+  color: white;
+  font-weight: bold;
+}
+
+.pesticide-weedicide-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.pesticide-weedicide-table tr:hover {
+  background-color: #e0e0e0;
+}
+
+.pesticide-weedicide-table caption {
+  font-size: 22px; /* Increase caption font size */
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+

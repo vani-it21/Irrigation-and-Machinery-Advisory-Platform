@@ -1,0 +1,126 @@
+.whole_wid{
+    padding:90px 250px;
+
+}
+
+.wid{
+    border:2px  solid  black ;
+    padding:30px;
+    max-width:500px;
+    height:100px;
+    border-radius:4px;
+    flex-direction: column;
+    margin:5px;
+    cursor: pointer;
+}
+.wid:hover {
+    background-color: rgb(185, 211, 220);
+ }
+.tom{
+    padding:60px 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+    margin:10px;
+     float:right;
+
+}
+.popup{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    background-color:rgba(244, 240, 240, 0.2);
+    display:flex;
+    justify-content: center;
+   
+}
+.popup-inner{
+    position:relative;
+    padding:32px;
+    width:100%;
+    max-width:640px;
+    background-color:rgb(237, 248, 248);
+
+}
+.popup-inner .close-btn{
+    position:absolute;
+    top:16px;
+    right:16px;
+}
+.form-create{
+    margin :20px 20px;
+    padding:40px 40px;
+    input{
+        padding:10px;
+        margin:20px;
+    }
+}
+.table-s {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-s th, .table-s td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-s th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.table-s tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-s tr:hover {
+  background-color: #ddd;
+}
+
+.schedule-form {
+  margin-bottom: 20px;
+}
+
+.schedule-form input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.schedule-form button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.table-container {
+  max-width: 400px; /* Adjust the width */
+  max-height: 320px; /* Adjust the height */
+  overflow: auto; /* Enable scrolling */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Dynamic columns */
+
+}
+
+.table-s {
+  width: 100%;
+  border: 1px solid #232323;
+  border-collapse: collapse;
+}
+.table-s th{
+  color:red;
+
+}
+.table-s th, .table-s td {
+  border: 1px solid #232323;
+  padding: 8px;
+  text-align: center;
+}
+
+.table-s thead {
+  border: 1px solid #232323;
+  position: sticky;
+  top:0px;
+  background-color: #eec8c8;
+}
